@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class odev {
+    public static void main(String[] args) {
+        int boy , kilo ;
+        Scanner bjk = new Scanner(System.in);
+        System.out.println("lutfen boyunuzun olcusunu cm cinsinden girinizz  : ");
+        boy = bjk.nextInt();
+        System.out.println("lutfen kilonuzun agirligini kg cinsinden girinizz  : ");
+        kilo = bjk.nextInt();
+        double index;
+        index = (kilo)/(boy*boy/10000);
+        System.out.println("Sizin vucudunuzun VUCUT KUTLE INDEXI  : " + index);
+
+
+    }
+}
